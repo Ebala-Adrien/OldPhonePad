@@ -12,7 +12,7 @@ https://dotnet.microsoft.com/download
 ### 2. Clone and Setup
 
 ```bash
-git clone this repository
+git clone https://github.com/Ebala-Adrien/OldPhonePad.git
 cd OldPhonePad
 ```
 
