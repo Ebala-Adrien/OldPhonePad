@@ -14,14 +14,15 @@ https://dotnet.microsoft.com/download
 ```bash
 git clone https://github.com/Ebala-Adrien/OldPhonePad.git
 cd OldPhonePad
+dotnet restore
 ```
 
-### 3. Run Tests
+### 3. Run Unit Tests
 
 To verify everything works correctly:
 
 ```bash
-dotnet run -- --test
+dotnet test
 ```
 
 ### 4. Run Program
@@ -29,6 +30,7 @@ dotnet run -- --test
 To use the program:
 
 ```bash
+cd src
 dotnet run
 ```
 
@@ -36,9 +38,9 @@ Enter your sequence when prompted and press Enter.
 
 ## 📝 Notes
 
-### Test Cases
+### Unit Tests
 
-The following test cases are included:
+The project includes unit tests that verify the following test cases:
 
 - `33#` → `E`
 - `227*#` → `B`
