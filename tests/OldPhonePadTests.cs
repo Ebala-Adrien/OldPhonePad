@@ -8,6 +8,7 @@ namespace OldPhonePad.Tests
         [Theory]
         [InlineData("33#", "E")]
         [InlineData("227*#", "B")]
+        [InlineData("222222222", "C")]
         [InlineData("4433555 555666#", "HELLO")]
         [InlineData("8 88777444666*664#", "TURING")]
         public void Decode_WithValidInput_ReturnsExpectedOutput(string input, string expected)
